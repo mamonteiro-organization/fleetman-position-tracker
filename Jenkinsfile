@@ -19,8 +19,7 @@ pipeline {
       }
       stage('Build') {
          steps {
-            //sh '''mvn clean package'''
-            echo "ok"
+            sh '''mvn clean package'''
          }
       }
 
